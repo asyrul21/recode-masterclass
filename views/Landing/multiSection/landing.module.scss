@@ -56,9 +56,33 @@ $darkFont: #223c66;
   margin-bottom: 80px;
 }
 
+.landing_contact_inline_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+}
+
+.landing_contact_button_view {
+  background: white;
+  color: $darkFont;
+  text-transform: uppercase;
+  border: 2px solid $darkFont;
+}
+
 .landing_contact_button {
   background: $darkFont;
   text-transform: uppercase;
+  color: white;
+}
+
+@media screen and (max-width: 620px) {
+  .landing_contact_inline_buttons {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+  }
 }
 
 @media screen and (max-width: 360px) {

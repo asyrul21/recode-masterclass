@@ -103,7 +103,9 @@
   "section3": {
     "title": "jumpstart your coding journey with us",
     "text": "Join our next intake today!<br/>Slots are limited to only 10 students per class per intake. Hurry up and enquire to book your slot!",
-    "buttonText": "enquire now",
-    "buttonLink": "mailto:recode.masterclass@gmail.com"
+    "button1Text": "View Tutor's Profile",
+    "button1Link": "https://www.linkedin.com/in/asyrul-ahmad",
+    "button2Text": "enquire now",
+    "button2Link": "mailto:recode.masterclass@gmail.com"
   }
 }

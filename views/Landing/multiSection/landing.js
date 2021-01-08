@@ -78,13 +78,20 @@ class Landing extends Component {
               className={styles.landing_contact_text}
               dangerouslySetInnerHTML={{ __html: section3Data.text }}
             />
-            <Button
-              text={section3Data.buttonText}
-              className={styles.landing_contact_button}
-              fontColor="white"
-              external
-              link={section3Data.buttonLink}
-            />
+            <div className={styles.landing_contact_inline_buttons}>
+              <Button
+                text={section3Data.button1Text}
+                className={styles.landing_contact_button_view}
+                external
+                link={section3Data.button1Link}
+              />
+              <Button
+                text={section3Data.button2Text}
+                className={styles.landing_contact_button}
+                external
+                link={section3Data.button2Link}
+              />
+            </div>
           </AnimateAppear>
         </Content>
       </Fragment>
