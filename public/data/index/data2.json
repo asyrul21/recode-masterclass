@@ -1,109 +1,108 @@
 {
-    "hero": {
-        "backgroundImage": {
-            "path": "images/index/landing-coding.jpg",
-            "path_WEBP": "images/index/landing-coding.webp",
-            "path_JPEG2000": "images/index/landing-coding.jp2"
-        },
-        "logoImage" : {
-            "path": "images/index/logo.png",
-            "path_WEBP": "",
-            "path_JPEG2000": ""
-        },
-        "heading": "Jump into the World of Coding",
-        "subHeading": "Catapult Your Career with Advanced Programming skills within 10 weeks!",
-        "buttonText": "VIEW PROGRAMMES"
+  "hero": {
+    "backgroundImage": {
+      "path": "images/index/landing-coding.jpg",
+      "path_WEBP": "images/index/landing-coding.webp",
+      "path_JPEG2000": "images/index/landing-coding.jp2"
     },
-    "section1": {
-        "heading": "Why Us?",
-        "infoCards": [
-            {
-                "icon" : {
-                    "path": "images/index/icons/lightning.png",
-                    "path_WEBP": "",
-                    "path_JPEG2000": ""
-                },
-                "heading": "10-Week Masterclass",
-                "text": "Transform from a normal human being to a Ninja Programmer and unlock your hidden talent within just 10 weeks."
-            },
-            {
-                "icon" : {
-                    "path": "images/index/icons/instructor.png",
-                    "path_WEBP": "",
-                    "path_JPEG2000": ""
-                },
-                "heading": "Direct Interaction with Industry-Experienced Instructor",
-                "text": "A Masters’ Degree graduate in Artificial Intelligence from one of the world’s top 30 universities."
-            },
-            {
-                "icon" : {
-                    "path": "images/index/icons/small-group.png",
-                    "path_WEBP": "",
-                    "path_JPEG2000": ""
-                },
-                "heading": "Small Groups",
-                "text": "Be part of a small classroom of only 8 students to maximise and optimise your learning experience."
-            },
-            {
-                "icon" : {
-                    "path": "images/index/icons/weekly-challenges.png",
-                    "path_WEBP": "",
-                    "path_JPEG2000": ""
-                },
-                "heading": "Weekly Challenges",
-                "text": "Mentally-challenging exercises to keep your programming skills sharpened for the next class."
-            },
-            {
-                "icon" : {
-                    "path": "images/index/icons/cert.png",
-                    "path_WEBP": "",
-                    "path_JPEG2000": ""
-                },
-                "heading": "Certificate & GitHub Repository",
-                "text": "Get certified and build your GitHub repository portfolio, which you can showcase to potential empoloyers."
-            },
-            {
-                "icon" : {
-                    "path": "images/index/icons/support.png",
-                    "path_WEBP": "",
-                    "path_JPEG2000": ""
-                },
-                "heading": "Lifetime Support",
-                "text": "E-mail us anytime about anything related to the AI, ML or Data Science, even after your course has ended."
-            }
-        ]
+    "logoImage": {
+      "path": "images/index/logo.png",
+      "path_WEBP": "",
+      "path_JPEG2000": ""
     },
-    "section2" : {
-        "title": "Programmes",
-        "background" : {
-            "path": "images/index/programmes-bg.png",
-            "path_WEBP": "images/index/programmes-bg.webp",
-            "path_JPEG2000": "images/index/programmes-bg.jp2"
+    "heading": "Jump into the World of Coding",
+    "subHeading": "Catapult Your Career with Advanced Programming skills within 10 weeks!",
+    "buttonText": "VIEW PROGRAMMES"
+  },
+  "section1": {
+    "heading": "Why Us?",
+    "infoCards": [
+      {
+        "icon": {
+          "path": "images/index/icons/lightning.png",
+          "path_WEBP": "",
+          "path_JPEG2000": ""
         },
-        "programmes": [
-            {
-                "heading": "beginner",
-                "subHeading": "10 WEEKS",
-                "text" : "Build simple and fun applications in Python, the most powerful programming language today.",
-                "price": "RM 2,000",
-                "buttonText": "download syllabus",
-                "buttonLink": "https://drive.google.com/uc?export=download&id=1HoKGB7SdCB8tYd28jF4sfTHDQUtjxs2D"
-            },
-            {
-                "heading": "advanced",
-                "subHeading": "10 (+1) WEEKS",
-                "text" : "Learn how to apply advanced programming skills to solve problems related to AI, Machine Learning & Data Science.",
-                "price": "RM 3,500",
-                "buttonText": "download syllabus",
-                "buttonLink": "https://drive.google.com/uc?export=download&id=1pGA2Iy_FfTaBr7OL7IQ_O9Z32d5rvUTn"
-            }
-        ]
+        "heading": "10-Week Masterclass",
+        "text": "Transform from a normal human being to a Ninja Programmer and unlock your hidden talent within just 10 weeks."
+      },
+      {
+        "icon": {
+          "path": "images/index/icons/instructor.png",
+          "path_WEBP": "",
+          "path_JPEG2000": ""
+        },
+        "heading": "Direct Interaction with Industry-Experienced Instructor",
+        "text": "A Masters’ Degree graduate in Artificial Intelligence from one of the world’s top 30 universities."
+      },
+      {
+        "icon": {
+          "path": "images/index/icons/small-group.png",
+          "path_WEBP": "",
+          "path_JPEG2000": ""
+        },
+        "heading": "Small Groups",
+        "text": "Be part of a small classroom of only 8 students to maximise and optimise your learning experience."
+      },
+      {
+        "icon": {
+          "path": "images/index/icons/weekly-challenges.png",
+          "path_WEBP": "",
+          "path_JPEG2000": ""
+        },
+        "heading": "Weekly Challenges",
+        "text": "Mentally-challenging exercises to keep your programming skills sharpened for the next class."
+      },
+      {
+        "icon": {
+          "path": "images/index/icons/cert.png",
+          "path_WEBP": "",
+          "path_JPEG2000": ""
+        },
+        "heading": "Certificate & GitHub Repository",
+        "text": "Get certified and build your GitHub repository portfolio, which you can showcase to potential empoloyers."
+      },
+      {
+        "icon": {
+          "path": "images/index/icons/support.png",
+          "path_WEBP": "",
+          "path_JPEG2000": ""
+        },
+        "heading": "Lifetime Support",
+        "text": "E-mail us anytime about anything related to the AI, ML or Data Science, even after your course has ended."
+      }
+    ]
+  },
+  "section2": {
+    "title": "Programmes",
+    "background": {
+      "path": "images/index/programmes-bg.png",
+      "path_WEBP": "images/index/programmes-bg.webp",
+      "path_JPEG2000": "images/index/programmes-bg.jp2"
     },
-    "section3": {
-        "title": "jumpstart your coding journey with us",
-        "text": "Our November intake is now open for booking. Slots are limited to only 8 students per class per intake. Hurry up and enquire to book your slot!",
-        "buttonText": "enquire now",
-        "buttonLink": "mailto:recode.masterclass@gmail.com"
-    }
-
+    "programmes": [
+      {
+        "heading": "beginner",
+        "subHeading": "10 WEEKS",
+        "text": "Build simple and fun applications in Python, the most powerful programming language today.",
+        "price": "RM 2,000",
+        "buttonText": "download syllabus",
+        "buttonLink": "https://drive.google.com/uc?export=download&id=1HoKGB7SdCB8tYd28jF4sfTHDQUtjxs2D"
+      },
+      {
+        "heading": "advanced",
+        "subHeading": "10 (+1) WEEKS",
+        "text": "Learn how to apply advanced programming skills to solve problems related to AI, Machine Learning & Data Science.",
+        "price": "RM 3,500",
+        "buttonText": "download syllabus",
+        "buttonLink": "https://drive.google.com/uc?export=download&id=1pGA2Iy_FfTaBr7OL7IQ_O9Z32d5rvUTn"
+      }
+    ]
+  },
+  "section3": {
+    "title": "jumpstart your coding journey with us",
+    "text": "Join our next intake today!<br/>Slots are limited to only 10 students per class per intake. Hurry up and enquire to book your slot!",
+    "buttonText": "enquire now",
+    "buttonLink": "mailto:recode.masterclass@gmail.com"
+  }
 }
