@@ -3,7 +3,7 @@ import React from "react";
 import propTypes from "prop-types";
 import classnames from "classnames";
 
-import Image from "containers/image/Image";
+import Image from "containers/Image/Image";
 
 // import style
 import styles from "./quote.module.scss";
@@ -45,7 +45,7 @@ Quote.propTypes = {
   /*
    *
    * the link or route which the button leads to */
-  author: propTypes.string,
+  author: propTypes.object,
   /*
    *
    * any applied classnames */
