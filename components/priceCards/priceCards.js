@@ -21,8 +21,6 @@ export const PriceCards = (props) => {
   return (
     <div className={styleClasses}>
       {data.map((pricing, idx) => {
-        console.log("pricing");
-        console.log(pricing);
         return <PriceCard key={idx} {...pricing} />;
       })}
     </div>

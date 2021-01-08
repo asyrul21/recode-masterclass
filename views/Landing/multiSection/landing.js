@@ -8,6 +8,7 @@ import Content from "containers/Content/Content";
 import InfoCards from "components/infoCards/infoCards";
 import PriceCards from "components/priceCards/priceCards";
 import Button from "components/buttons/indexButton/indexButton";
+import Quote from "components/testimonials/quote/quote";
 
 // animators
 import AnimateAppear from "components/animators/reveal-fade-appear";
@@ -40,12 +41,14 @@ class Landing extends Component {
     const section1Data = data.section1;
     const section2Data = data.section2;
     const section3Data = data.section3;
+    const testimonialData = data.testimonial;
     return (
       <Fragment>
         <CustomHero
           {...heroProps}
           onClickIndexButton={this.handleIndexButtonClick}
         />
+        {/* ********** Why US ********** */}
         <SectionTitle
           text={section1Data.heading}
           className={styles.landing_section_title_whyUs}
@@ -55,6 +58,7 @@ class Landing extends Component {
             <InfoCards data={section1Data.infoCards} />
           </AnimateAppear>
         </Content>
+        {/* ********** Programmes ********** */}
         <Content className={styles.landing_programmes} ref={this.programmesRef}>
           <div className={classnames("backgroundImage")}>
             <Image {...section2Data.background} />
@@ -68,6 +72,19 @@ class Landing extends Component {
             <PriceCards data={section2Data.programmes} />
           </AnimateAppearFromBottom>
         </Content>
+
+        {/* ********** Testimonial ********** */}
+        <Content className={styles.landing_testimonial}>
+          <SectionTitle
+            text={testimonialData.title}
+            className={styles.landing_section_title_testimonial}
+          />
+          <AnimateAppearFromBottom>
+            <Quote {...testimonialData} />
+          </AnimateAppearFromBottom>
+        </Content>
+
+        {/* ********** Contact Us ********** */}
         <Content className={styles.landing_contact}>
           <SectionTitle
             text={section3Data.title}
